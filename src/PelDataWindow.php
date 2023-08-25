@@ -229,7 +229,7 @@ class PelDataWindow
      */
     private function validateOffset($offset)
     {
-        if ($offset < 0 || $offset >= $this->size) {
+        if ($offset < 0 || $offset > $this->size) {
             throw new PelDataWindowOffsetException('Offset %d not within [%d, %d]', $offset, 0, $this->size - 1);
         }
     }
