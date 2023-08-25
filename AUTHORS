@@ -51,3 +51,8 @@ Japanese: Tadashi Jokagi.
 Polish: Jakub Bogusz (for libexif).
 
 Spanish: Fabian Mandelbaum (for libexif).
+
+Other Code
+**********
+
+PelFlate.php is based on MIT-licensed code, Copyright (c) 2023 Setasign GmbH & Co. KG (https://www.setasign.com)
